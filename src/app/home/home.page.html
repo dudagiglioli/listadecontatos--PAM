@@ -1,20 +1,59 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      <ion-searchbar placeholder="Contatos"></ion-searchbar>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-list lines="full">
+  <ion-item  >
+    <ion-avatar>
+      <img src="https://pps.whatsapp.net/v/t61.24694-24/316954347_191576390151517_8397521310733065734_n.jpg?ccb=11-4&oh=01_AdTn3rsuQm1oO_Jvn6JpuqnG6TK5MdGJK4ZjCkOZsA45gg&oe=643297FE" />
+    </ion-avatar>
+    <ion-button fill="clear" (click)="navigation('../ctt1')">
+      <h4>Camila</h4>
+    </ion-button>
+  </ion-item>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-item >
+    <ion-avatar>
+      <img src="https://pps.whatsapp.net/v/t61.24694-24/319927872_216135257633833_8100503057198014006_n.jpg?ccb=11-4&oh=01_AdTjEoGN1Eg5OaQVZK0LOhWg4jwokYHWuq9O_yej4b9KAg&oe=6432B084" />
+    </ion-avatar>
+    <ion-button fill="clear"  (click)="navigation('../ctt2')">
+      <h4>Gabi Silva</h4>
+    </ion-button>
+  </ion-item>
+
+
+    <ion-item >
+      <ion-avatar>
+        <img src="https://pps.whatsapp.net/v/t61.24694-24/337911523_218618970840272_7572009070990356147_n.jpg?ccb=11-4&oh=01_AdSbuaZathFxj0xS7QKS69t0ALrpvapxRFJ-c_n7pdtDzA&oe=6432C890" />
+      </ion-avatar>
+      <ion-button fill="clear" (click)="navigation('../ctt3')">
+        <h4>Juan</h4>
+      </ion-button>
+    </ion-item>
+
+    <ion-item  >
+      <ion-avatar>
+        <img src="https://pps.whatsapp.net/v/t61.24694-24/56153862_1367793936696467_2427553186857353216_n.jpg?ccb=11-4&oh=01_AdRhDlh2LZgU33pDaD-dm-NSZQYYZJ0V5Q2DYe96mgHILw&oe=6432A117" />
+      </ion-avatar>
+      <ion-button fill="clear" (click)="navigation('../ctt4')">
+        <h4>Juliano</h4>
+      </ion-button>
+    </ion-item>
+
+    <ion-item >
+      <ion-avatar>
+        <img src="https://pps.whatsapp.net/v/t61.24694-24/336548697_921203622261854_8376230595691503387_n.jpg?ccb=11-4&oh=01_AdQN1C28YxMk1K1V8knaATHSG6texqNVqT__xR5CR9IoHQ&oe=6432B9C5" />
+      </ion-avatar>
+      <ion-button fill="clear" (click)="navigation('../ctt5')">
+        <h4>Marcelinha</h4>
+      </ion-button>
+    </ion-item>
+  </ion-list>
+
+
 </ion-content>
